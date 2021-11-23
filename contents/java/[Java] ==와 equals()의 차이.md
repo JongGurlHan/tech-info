@@ -1,0 +1,18 @@
+## Java에서 ==와 equals()의 차이
+- "=="
+   - 항등 연산자(Operator)이다.
+   - <--> !=
+   - 참조비교(Reference Comparison)
+      - 두 객체가 같은 메모리 공간을 가르키는지 확인한다.
+   - 반환형태: boolean type
+      -  같은 주소면 return true, 다른 주소면 return false
+   - 모든 기본 유형(Primitive Types)에 대해 적용할 수 있다.
+      - bye, short, char, int, float double, boolean
+- "equals()"
+   - 객체 비교 메서드(Method)이다.
+   - 내용 비교
+      - 두 객체의 값이 같은지 확인한다.
+      - 즉, 문자열의 데이터/내용을 기반으로 비교한다.
+   - 기본 유형에 대해서는 적용할 수 없다.
+   - 반환 형태: boolean type  
+      -  같은 내용이면면 return true, 다른 내용이면 return false
